@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "kladno-data-manipulation"
+version = "0.1.0"
+description = ""
+authors = ["maxfrischknecht <info@maxfrischknecht.ch>"]
+readme = "README.md"
+packages = [{include = "kladno_sanity_import_preparation"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
